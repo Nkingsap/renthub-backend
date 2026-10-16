@@ -1,0 +1,20 @@
+name = "houserent-backend"
+main = "src/index.js"
+compatibility_date = "2026-01-10"
+compatibility_flags = ["nodejs_compat"]
+
+# Routes - configure these in Cloudflare dashboard after deployment
+# routes = [
+#     { pattern = "yourdomain.com/api/*", zone_name = "yourdomain.com" }
+# ]
+
+# Environment variables (set these in Cloudflare dashboard or via wrangler secret)
+# [vars]
+# SUPABASE_URL = "https://your-project.supabase.co"
+# SUPABASE_ANON_KEY = "your-supabase-anon-key"
+# GOOGLE_MAPS_API_KEY = "your-google-maps-api-key"
+
+# For security, use wrangler secret for sensitive values:
+# wrangler secret put SUPABASE_URL
+# wrangler secret put SUPABASE_ANON_KEY
+# wrangler secret put GOOGLE_MAPS_API_KEY

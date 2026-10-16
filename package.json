@@ -1,0 +1,23 @@
+{
+    "name": "houserent-backend",
+    "version": "1.0.0",
+    "description": "Cloudflare Worker API for houserent app — handles all /api/* routes",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "wrangler dev --ip 0.0.0.0",
+        "deploy": "wrangler deploy"
+    },
+    "keywords": [
+        "cloudflare-worker",
+        "api",
+        "supabase",
+        "google-maps"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@supabase/supabase-js": "^2.44.4"
+    },
+    "devDependencies": {
+        "wrangler": "^3.0.0"
+    }
+}
